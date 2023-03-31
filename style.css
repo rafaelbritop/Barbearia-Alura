@@ -263,7 +263,28 @@ td, th {
 		position: static;
 	}
 
+	nav a {
+		font-size: 21px;
+	}
+
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
+	}
+	
+	.produtos {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.produtos li {
+		margin: 10px 4.7%;
+	}
+
+	form {
+		margin: 40px 20px;
+	}
+
+	table {
+		margin: 20px 20px 40px;
 	}
 }
